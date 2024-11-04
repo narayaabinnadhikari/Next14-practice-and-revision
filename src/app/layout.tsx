@@ -25,13 +25,11 @@ export const metadata: Metadata = {
   }) {
     return (
       <html lang="en">
-        <body className="m-4 p-4">
+        <body >
           <header className="bg-red-400 p-4">
             <p>Header Component from root layout</p>
           </header>
-          <div className="m-4 p-4 text-center h-full font-bold text-xl">
           {children}
-          </div>
           <footer className="bg-neutral-600 p-4">
             <p>This is footer from root layout.</p>
           </footer>
